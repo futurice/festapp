@@ -189,7 +189,12 @@
   color: #565A6F;
 }
 .footer-above-custom .above-container {
-  height: 200px;
+  height: 320px;
+}
+@media (min-width: 500px) {
+  .footer-above-custom .above-container {
+    height: 200px;
+  }
 }
 .footer-above-custom .above-container a {
   color: #565A6F;
