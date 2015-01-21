@@ -1,0 +1,249 @@
+@import "variables.less";
+@import "mixins.less";
+
+//General styles
+.row {
+    margin: 0;
+
+    .heading-center {
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .text-center {
+        padding-top: 10px;
+    }
+
+    p {
+        margin: 0;
+    }
+}
+
+.position-absolute {
+    position: relative;
+
+    @media(min-width:992px) {
+        position: absolute;
+    }
+}
+
+.position-bottom {
+    margin-top: 2%;
+    @media(min-width:992px) {
+        margin-top: 20%;
+    }
+}
+
+.position-right {
+    @media(max-width:992px) {
+        margin-left: 0 !important;
+    }
+}
+
+.button-container {
+    background-color: #F2C516;
+    display: block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: @lato;
+    font-weight: 300;
+    float: none;
+    margin: 10px auto;
+    width: 60%;
+    text-align: center;
+
+    @media(min-width:992px) {
+        padding: 20px 40px;
+        font-size: 16px;
+        margin: 20px auto;
+    }
+
+    .icon-white {
+        color: white;
+    }
+}
+
+.whole-width-container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+    .actual-info-row {
+        padding-bottom: 40px;
+    }
+}
+
+// Header
+#top-bar {
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-top: 40px;
+    padding-left: 10%;
+    background-color: #F7AA89;
+    color: white;
+
+    .title-name {
+        font-weight: bold;
+    }
+
+    .title-description {
+        font-weight: 100;
+    }
+}
+
+.top-container {
+    padding-top: 100px !important;
+    background-color: #F7AA89;
+
+    .front-image {
+        margin: 0;
+    }
+    a {
+        color: white;
+    }
+
+    .front-text-container {
+        margin-top: 15%;
+        position: relative;
+
+        @media(min-width:992px) {
+            position: absolute;
+        }
+    }
+
+    .platform-icon {
+        font-size: 35px;
+        padding: 10px;
+        color: #F9C3AD;
+    }
+}
+
+.quote-row {
+    background-color: #FFC0A8;
+    padding: 40px;
+    font-family: @questrial;
+
+    .quote {
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .quote-person {
+        font-weight: 100;
+        font-size: 15px;
+    }
+}
+
+// More info Section
+#actual-info {
+    padding-top: 100px;
+    padding-bottom: 0;
+    background-color: @brand-grey;
+
+    h3 {
+        font-size: 16px;
+        font-weight: 500;
+
+        @media(min-width:992px) {
+            font-size: 20px;
+        }
+    }
+
+    p {
+        font-size: 15px;
+
+        @media(min-width:992px) {
+            font-size: 16px;
+        }
+    }
+
+    ul {
+        list-style: none;
+
+        li {
+            font-weight: 300;
+        }
+    }
+
+    .custom-icon {
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    .links {
+        background-color: #56596F;
+        color: white;
+        padding-bottom: 40px;
+
+        a {
+            color: white;
+        }
+
+        .button-get-code {
+            width: 70%;
+            font-size: 20px;
+
+            .octicon-server {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .build-with {
+        background-color: #393444;
+        color: white;
+    }
+}
+
+// Examples section
+#examples {
+    padding: 0;
+    margin: 0;
+    background-color: #393444;
+
+    .portfolio-item {
+        padding-bottom: 15px;
+
+        .example-img {
+            margin: auto;
+        }
+    }
+}
+
+// About section
+#about {
+
+    .add-button {
+        border-radius: 0;
+        background-color: #F2C516;
+        color: white;
+        margin: 20px;
+    }
+
+    .octicon-git-pull-request {
+        font-size: 20px;
+    }
+}
+
+// Footer
+
+.footer-above-custom {
+    background-color: #18151D !important;
+    color: #565A6F;
+
+    .above-container {
+        height: 200px;
+
+        a {
+            color: #565A6F;
+        }
+    }
+}
+
+.footer-below-custom {
+    background-color: #2B2833 !important;
+
+    a {
+        color: #565A6F;
+    }
+}

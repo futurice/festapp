@@ -1,0 +1,202 @@
+.row {
+  margin: 0;
+}
+.row .heading-center {
+  text-align: center;
+  padding: 20px 0;
+}
+.row .text-center {
+  padding-top: 10px;
+}
+.row p {
+  margin: 0;
+}
+.position-absolute {
+  position: relative;
+}
+@media (min-width: 992px) {
+  .position-absolute {
+    position: absolute;
+  }
+}
+.position-bottom {
+  margin-top: 2%;
+}
+@media (min-width: 992px) {
+  .position-bottom {
+    margin-top: 20%;
+  }
+}
+@media (max-width: 992px) {
+  .position-right {
+    margin-left: 0 !important;
+  }
+}
+.button-container {
+  background-color: #F2C516;
+  display: block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  float: none;
+  margin: 10px auto;
+  width: 60%;
+  text-align: center;
+}
+@media (min-width: 992px) {
+  .button-container {
+    padding: 20px 40px;
+    font-size: 16px;
+    margin: 20px auto;
+  }
+}
+.button-container .icon-white {
+  color: white;
+}
+.whole-width-container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.whole-width-container .actual-info-row {
+  padding-bottom: 40px;
+}
+#top-bar {
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-top: 40px;
+  padding-left: 10%;
+  background-color: #F7AA89;
+  color: white;
+}
+#top-bar .title-name {
+  font-weight: bold;
+}
+#top-bar .title-description {
+  font-weight: 100;
+}
+.top-container {
+  padding-top: 100px !important;
+  background-color: #F7AA89;
+}
+.top-container .front-image {
+  margin: 0;
+}
+.top-container a {
+  color: white;
+}
+.top-container .front-text-container {
+  margin-top: 15%;
+  position: relative;
+}
+@media (min-width: 992px) {
+  .top-container .front-text-container {
+    position: absolute;
+  }
+}
+.top-container .platform-icon {
+  font-size: 35px;
+  padding: 10px;
+  color: #F9C3AD;
+}
+.quote-row {
+  background-color: #FFC0A8;
+  padding: 40px;
+  font-family: 'Questrial', sans-serif;
+}
+.quote-row .quote {
+  font-weight: 600;
+  font-size: 20px;
+}
+.quote-row .quote-person {
+  font-weight: 100;
+  font-size: 15px;
+}
+#actual-info {
+  padding-top: 100px;
+  padding-bottom: 0;
+  background-color: #b2b3b9;
+}
+#actual-info h3 {
+  font-size: 16px;
+  font-weight: 500;
+}
+@media (min-width: 992px) {
+  #actual-info h3 {
+    font-size: 20px;
+  }
+}
+#actual-info p {
+  font-size: 15px;
+}
+@media (min-width: 992px) {
+  #actual-info p {
+    font-size: 16px;
+  }
+}
+#actual-info ul {
+  list-style: none;
+}
+#actual-info ul li {
+  font-weight: 300;
+}
+#actual-info .custom-icon {
+  padding: 5px;
+  font-size: 10px;
+}
+#actual-info .links {
+  background-color: #56596F;
+  color: white;
+  padding-bottom: 40px;
+}
+#actual-info .links a {
+  color: white;
+}
+#actual-info .links .button-get-code {
+  width: 70%;
+  font-size: 20px;
+}
+#actual-info .links .button-get-code .octicon-server {
+  font-size: 20px;
+}
+#actual-info .build-with {
+  background-color: #393444;
+  color: white;
+}
+#examples {
+  padding: 0;
+  margin: 0;
+  background-color: #393444;
+}
+#examples .portfolio-item {
+  padding-bottom: 15px;
+}
+#examples .portfolio-item .example-img {
+  margin: auto;
+}
+#about .add-button {
+  border-radius: 0;
+  background-color: #F2C516;
+  color: white;
+  margin: 20px;
+}
+#about .octicon-git-pull-request {
+  font-size: 20px;
+}
+.footer-above-custom {
+  background-color: #18151D !important;
+  color: #565A6F;
+}
+.footer-above-custom .above-container {
+  height: 200px;
+}
+.footer-above-custom .above-container a {
+  color: #565A6F;
+}
+.footer-below-custom {
+  background-color: #2B2833 !important;
+}
+.footer-below-custom a {
+  color: #565A6F;
+}

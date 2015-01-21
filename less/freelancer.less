@@ -1,0 +1,93 @@
+@import "variables.less";
+@import "mixins.less";
+
+body {
+	overflow-x: hidden;
+}
+
+p {
+	font-size: 20px;
+    font-weight: 300;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+	color: @brand-success;
+	outline: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: @lato;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
+header {
+	text-align: center;
+	background: @brand-success;
+	color: white;
+	.container {
+		padding-top: 100px;
+		padding-bottom: 50px;
+	}
+	img {
+		display: block;
+		margin: 0 auto 20px;
+	}
+	.intro-text {
+		.skills {
+            clear: both;
+			font-size: 15px;
+			font-weight: 100;
+            font-family: @lato;
+		}
+	}
+}
+
+@media(min-width:768px) {
+	header {
+		.container {
+			padding-top: 200px;
+			padding-bottom: 100px;
+		}
+		.intro-text {
+			.skills {
+				font-size: 18px;
+			}
+		}
+	}
+}
+
+section {
+    padding: 100px 0;
+    h2 {
+    	margin: 0;
+    	font-size: 3em;
+    }
+}
+
+section.success {
+	background: #393444;
+	color: white;
+}
+
+@media(max-width:767px) {
+	section {
+		padding: 75px 0;
+	}
+}
+
+footer {
+	color: white;
+	.footer-above {
+		padding-top: 50px;
+		background-color: @brand-primary;
+	}
+	.footer-below {
+		padding: 25px 0;
+		background-color: darken(@brand-primary, 5%);
+	}
+}
