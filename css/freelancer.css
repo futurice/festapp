@@ -19,7 +19,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   font-weight: 300;
 }
@@ -40,7 +40,7 @@ header .intro-text .skills {
   clear: both;
   font-size: 15px;
   font-weight: 100;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 @media (min-width: 768px) {
   header .container {

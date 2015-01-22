@@ -37,7 +37,7 @@
   display: block;
   padding: 10px 20px;
   font-size: 16px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   float: none;
   margin: 10px auto;
@@ -51,6 +51,10 @@
     margin: 20px auto;
   }
 }
+.button-container .octicon,
+.button-container .fa {
+  margin-right: 5px;
+}
 .button-container .icon-white {
   color: white;
 }
@@ -63,6 +67,7 @@
   padding-bottom: 40px;
 }
 #top-bar {
+  font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   text-transform: uppercase;
   padding-top: 40px;
@@ -182,6 +187,7 @@
   margin: 20px;
 }
 #about .octicon-git-pull-request {
+  margin-right: 5px;
   font-size: 20px;
 }
 .footer-above-custom {
